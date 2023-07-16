@@ -106,7 +106,21 @@ module.exports = {
 pnpm lint
 ```
 
+![image-20230716220339040](https://awesomeboy.oss-cn-chengdu.aliyuncs.com/img/202307162203096.png)
 
+> 遇到这样的错误，很明显少安装插件了
+
+```
+pnpm install eslint-plugin-prettier@latest --save-dev
+```
+
+![image-20230716220440100](https://awesomeboy.oss-cn-chengdu.aliyuncs.com/img/202307162204138.png)
+
+```
+pnpm add prettier -D
+```
+
+![image-20230716220521985](https://awesomeboy.oss-cn-chengdu.aliyuncs.com/img/202307162205013.png)
 
 #### 2.6 安装插件`eslint`
 
